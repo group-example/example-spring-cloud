@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin-server" />
+        <module name="common" />
+        <module name="config-server" />
+        <module name="dao" />
+        <module name="eureka-server" />
+        <module name="generator" />
+        <module name="server-admin" />
+        <module name="server-config" />
+        <module name="server-eureka" />
+        <module name="server-gateway" />
+        <module name="service" />
+        <module name="spring-admin-server" />
+        <module name="web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-server" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="dao" target="1.7" />
+      <module name="eureka-server" target="1.8" />
+      <module name="example-spring-cloud" target="1.8" />
+      <module name="generator" target="1.8" />
+      <module name="server-admin" target="1.8" />
+      <module name="server-config" target="1.8" />
+      <module name="server-eureka" target="1.8" />
+      <module name="server-gateway" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="spring-admin-server" target="1.5" />
+      <module name="spring-cloud" target="1.5" />
+      <module name="web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
